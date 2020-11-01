@@ -59,11 +59,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     implementation project(':imkit')
-    implementation project(':imlib')
     implementation project(':imsdk')
-    implementation project(':asynctcp')
+    implementation project(':imlib')
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.0.0'
